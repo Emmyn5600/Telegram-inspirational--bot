@@ -4,10 +4,10 @@ require 'json'
 require_relative 'bot.rb'
 
 class Joke
-      @new_joke = nil
+      new_values = nil
 
       def initialize
-        @new_joke = @make_the_request
+        new_values = @make_the_request
       end
 
       def make_the_request
