@@ -15,8 +15,13 @@ class Bot
         bot.listen do |message|
             case message.text
 
-            when '/start'
-                bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to Inspirational chat bot created by NSABIMANA Emmanuel, the chat bot is to keep you inspired and entertained. Use  /start to start the bot,  /stop to end the bot, /inspiration to get a different motivational and inspirational quotes everytime you request for it or /joke to get a joke everytime you request for /about to know the creator /map to know the location and /esconnect to know my website I created")
+                   when '/start'
+                      bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to Inspirational chat bot created by NSABIMANA Emmanuel, the chat bot is to keep you inspired and entertained. Use  /start to start the bot,  /stop to end the bot, /inspiration to get a different motivational and inspirational quotes everytime you request for it or /joke to get a joke everytime you request for /about to know the creator /map to know the location and /esconnect to know my website I created")
+
+                    when '/esconnect'
+                      bot.api.send_message(chat_id: message.chat.id, text: "Hello #{message.from.first_name}, "Welcome to my own website http://esconnectus.com/"")
+
+                           
             end
         end
     end
