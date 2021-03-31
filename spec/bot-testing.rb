@@ -23,7 +23,13 @@ RSpec.describe Inspiration do
          it 'does not pick any quote if it is an empty array' do
             expect(pick_string.length).not_to eql(0) 
          end
-         
+
+         it 'should return an Hash' do
+            expect(pick_string.class).to eql(Hash)
+          end
+      
+        
+
     end
 
 end
