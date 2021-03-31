@@ -40,6 +40,9 @@ class Bot
                         value = values.make_the_request
                         bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
                         
+                    when '/help'
+                        bot.api.send_message(chat_id: message.chat.id, text: "You get stuck😭 You are asking yourself what to do!!😭 . Just type the following command  '/joke' to see awesome jokes, '/inspiration' to get  an inspirational quote, '/about' to see more about the creator and '/stop' to stop me🙁 '/map' to get a locatin '/esconnect' to see my website.")   
+
                        else
                         bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start, /esconnect, /stop, /about, /map, /inspiration or /joke")          
             end
