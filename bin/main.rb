@@ -1,6 +1,5 @@
-require_relative '../lib/bot.rb'
-require_relative '../lib/inspiration.rb'
-
+require_relative '../lib/bot'
+require_relative '../lib/inspiration'
 
 puts 'Inspirational Telegram bot developed by NSABIMANA Emmanuel'
 puts '----------------------------------------------'
