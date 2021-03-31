@@ -24,11 +24,13 @@ RSpec.describe Inspiration do
             expect(pick_string.length).not_to eql(0) 
          end
 
-         it 'should return an Hash' do
+         it 'should return a Hash' do
             expect(pick_string.class).to eql(Hash)
           end
       
-        
+          it 'should return a key and a value' do
+            expect(pick_string.length).to eql(2)
+          end
 
     end
 
