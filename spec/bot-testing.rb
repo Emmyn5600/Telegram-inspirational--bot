@@ -1,7 +1,7 @@
 require_relative '../lib/inspiration.rb'
 require_relative '../lib/jokes.rb'
 
-RSpec.describe Inspiration do
+ describe Inspiration do
     describe '#learn_new_thing' do
         let(:learn) { Inspiration.new }
         let(:learn_json) {learn.learn_new_thing}
@@ -31,7 +31,24 @@ RSpec.describe Inspiration do
           it 'should return a key and a value' do
             expect(pick_string.length).to eql(2)
           end
-
     end
+end
 
+  describe Joke do
+       describe '#learn_new_thing' do
+            let(:learn) { Joke.new }
+            let(:learn_json) {learn.learn_new_thing}
+
+            it 'should return hash response when the request is sucessful' do
+              expect(learn_json.class).to eql(Hash)
+            end
+
+            it 'returns an array response should not be empty' do
+              expect(learn_json.length).not_to eql(0)
+            end
+
+            it 'does not pick any joke if it is an empty array' do
+                expect(learn_json.length).not_to eql(0) 
+             end
+       end
 end
