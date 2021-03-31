@@ -40,8 +40,9 @@ class Bot
                         value = values.make_the_request
                         bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
                         
-        
-                           
+                    else
+
+                        bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start, /esconnect, /stop, /about, /map, /inspiration or /joke")          
             end
         end
     end
