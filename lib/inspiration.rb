@@ -5,10 +5,10 @@ require_relative 'bot.rb'
 
 class Inspiration
     
-  @values = nil
+  @new_quote = nil
 
   def initialize
-    @values = make_the_request
+    @new_quote = make_the_request
   end
 
   def make_the_request
@@ -19,9 +19,9 @@ class Inspiration
     response
   end
 
-  def select_random
-    @values = @values.sample
-    @values
+  def random_quote
+    @new_quote = @new_quote.sample
+    @new_quote
   end
 
 end
