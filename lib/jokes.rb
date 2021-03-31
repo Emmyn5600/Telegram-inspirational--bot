@@ -7,10 +7,10 @@ class Joke
       new_values = nil
 
       def initialize
-        new_values = @make_the_request
+        new_values = @learn_new_thing
       end
 
-      def make_the_request
+      def learn_new_thing
             url = 'https://api.yomomma.info'
             encoded_address = URI.escape(url)
             uri = URI.parse(encoded_address)

@@ -36,7 +36,7 @@ class Bot
 
                     when '/joke'
                         new_values = Joke.new
-                        value = new_values.make_the_request
+                        value = new_values.learn_new_thing
                         bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
 
                     when '/sleep'

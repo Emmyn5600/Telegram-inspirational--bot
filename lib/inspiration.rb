@@ -8,10 +8,10 @@ class Inspiration
   @new_quote = nil
 
   def initialize
-    @new_quote = make_the_request
+    @new_quote = learn_new_thing
   end
 
-  def make_the_request
+  def learn_new_thing
     url = 'https://type.fit/api/quotes'
     uri = URI(url)
     response = Net::HTTP.get(uri)
