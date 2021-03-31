@@ -35,8 +35,11 @@ class Bot
                         value = values.select_random
                         bot.api.send_message(chat_id: message.chat.id, text: "#{value['text']}", date: message.date)
 
-                    
-
+                    when '/joke'
+                        values = Joke.new
+                        value = values.make_the_request
+                        bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
+                        
         
                            
             end
