@@ -27,6 +27,8 @@ class Bot
                     when '/about'
                       bot.api.send_message(chat_id: message.chat.id, text: "Hi!, My name is NSABIMANA Emmanuel creator of @emmyn5600bot. I am a Rwandan by nationality. I created this bot as part of a Microverse capstone project to show case my skills as a developer of the Ruby language. To get more help for this use the command '/help' to see more.")
 
+                    when '/map'
+                        bot.api.send_location(chat_id: message.chat.id, latitude: -37.807416, longitude: 144.985339)
                            
             end
         end
