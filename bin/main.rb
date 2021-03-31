@@ -3,4 +3,4 @@ require_relative '../lib/inspiration.rb'
 
 
 
-Cool.new.init
+Bot.new
