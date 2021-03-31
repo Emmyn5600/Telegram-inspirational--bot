@@ -6,10 +6,10 @@ require_relative 'bot.rb'
 
 class Inspiration
 
-    @new_joke = nil
+    @new_inspiration = nil
 
     def initialize
-        @new_joke = @make_the_request
+        @new_inspiration = @make_the_request
     end
 
     def make_the_request
@@ -21,8 +21,8 @@ class Inspiration
       end
     
       def select_random
-        @new_joke = @new_joke.sample
-        @new_joke
+        @new_inspiration = @new_inspiration.sample
+        @new_inspiration
       end 
 
 end
