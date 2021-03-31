@@ -21,6 +21,8 @@ class Bot
                     when '/esconnect'
                       bot.api.send_message(chat_id: message.chat.id, text: "Hello #{message.from.first_name}, "Welcome to my own website http://esconnectus.com/"")
 
+                    when '/stop'
+                      bot.api.send_message(chat_id: message.chat.id, text: "Good Bye, #{message.from.first_name}", date: message.date)
                            
             end
         end
