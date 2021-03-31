@@ -29,6 +29,15 @@ class Bot
 
                     when '/map'
                         bot.api.send_location(chat_id: message.chat.id, latitude: -37.807416, longitude: 144.985339)
+
+                    when '/inspiration'
+                        values = Inspiration.new
+                        value = values.select_random
+                        bot.api.send_message(chat_id: message.chat.id, text: "#{value['text']}", date: message.date)
+
+                    
+
+        
                            
             end
         end
