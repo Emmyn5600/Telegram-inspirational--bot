@@ -14,7 +14,8 @@ class Inspiration
     url = 'https://type.fit/api/quotes'
     uri = URI(url)
     response = Net::HTTP.get(uri)
-    JSON.parse(response)
+    response = JSON.parse(response)
+    response
   end
 
   def random_quote

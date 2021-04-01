@@ -12,9 +12,11 @@ class Joke
 
   def learn_new_thing
     url = 'https://api.yomomma.info'
+
     encoded_address = URI.escape(url)
     uri = URI.parse(encoded_address)
     response = Net::HTTP.get(uri)
-    JSON.parse(response)
+    response = JSON.parse(response)
+    response
   end
 end

@@ -5,7 +5,7 @@ require_relative 'inspiration'
 
 class Bot
   def initialize
-    token = '1798351052:AAG6Btsz4LpUOXJjOZK8HL2xjmlHSlAJHL4'
+    token = '1777054662:AAH48evzw_AnfvQ8x9d9jk7XvhsXjGYyCu4'
 
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
