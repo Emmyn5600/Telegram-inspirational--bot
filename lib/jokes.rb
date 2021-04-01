@@ -9,8 +9,7 @@ class Joke
   def learn_new_thing
     url = 'https://api.yomomma.info'
 
-    encoded_address = CGI.escape(url)
-    uri = CGI.parse(encoded_address)
+    uri = URI(url)
     response = Net::HTTP.get(uri)
     JSON.parse(response)
   end
