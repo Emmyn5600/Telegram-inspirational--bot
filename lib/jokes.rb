@@ -4,19 +4,14 @@ require 'json'
 require_relative 'bot'
 
 class Joke
-  new_values = nil
-
-  def initialize
-    new_values = @learn_new_thing
-  end
+  def initialize; end
 
   def learn_new_thing
     url = 'https://api.yomomma.info'
 
-    encoded_address = URI.escape(url)
-    uri = URI.parse(encoded_address)
+    encoded_address = CGI.escape(url)
+    uri = CGI.parse(encoded_address)
     response = Net::HTTP.get(uri)
-    response = JSON.parse(response)
-    response
+    JSON.parse(response)
   end
 end
