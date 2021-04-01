@@ -16,7 +16,7 @@
 
 ## You can see a short demo of the Bot /start command in the screenshot below.
 
-![image](./asset/telegram.png)
+![image](./asset/telegram-bot.gif)
 
 ## The available commands in the telegram bot
 
