@@ -20,8 +20,6 @@ class Bot
   puts '----------------------------------------------'
   puts '...loading the bot is now online... use ctrl-c to stop the bot and ctrl-l to clear the terminal'
 
-  token = '1777054662:AAH48evzw_AnfvQ8x9d9jk7XvhsXjGYyCu4'
-
   Telegram::Bot::Client.run(token) do |bot|
     bot.listen do |message|
       case message.text
