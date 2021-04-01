@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Telegram-inspirational--bot
+# `Telegram-inspirational--bot`
 
  > In this project, I built a Telegram Bot that gives you a daily inspirational quote and asks for your name and makes a joke about you. The main goal is to make a massive use of external API`s by putting into practice the main concepts of Object Oriented Programming, classes, modules, objects and accessing their attributes. The project is built using the TDD technique.
 
-## How to find the bot on Telegram
+## `How to find the bot on Telegram`
 
 - To find the bot on Telegram, simply download the [desktop](https://telegram.org/) application and on mobile got to the play store (for android) and search for telegram or apple store(for ISO) and download the application.
 
@@ -14,11 +14,11 @@
 
 - Click this [link!](https://web.telegram.org/#/im?p=@emmyn5600bot) to use the bot on the Browser.
 
-## You can see a short demo of the Bot /start command in the screenshot below.
+## `You can see a short demo of the Bot /start command in the screenshot below`.
 
 ![image](./asset/telegram-bot.gif)
 
-## The available commands in the telegram bot
+## `The available commands in the telegram bot`
 
 - `/start` receive a greetings message with some explanation related to project.
 - `/joke`  receive a joke API.
@@ -31,7 +31,7 @@
 - `/map` receive a map location.
 
 
-## Built with
+## `Built with`
 
 - <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"> 2.7.2
 - VS Code
@@ -41,7 +41,7 @@
 - RSpec
 - Rubocop
 
-## Prerequisities
+## `Prerequisities`
 
 To get this project up and running locally, you must have [Ruby](https://desktop.telegram.org/) installed on your computer.
 
@@ -60,7 +60,7 @@ Run `ruby bin/main.rb` to start the bot.<br>
 You can use the commands defined in the Available commands section defined above.<br>
 
 
-## Repository Directories
+## `Repository Directories`
 
 The code for the project is divided into the following directories: **./bin**, **./lib**, and **./spec**.
 
@@ -82,7 +82,7 @@ The **./spec** folder contains all the relative spec tests
 
 In addition to the above, the repo also contains .rubocop.yml for linting.
 
-## Tests
+## `Tests`
 
 1. Open Your Terminal
 
