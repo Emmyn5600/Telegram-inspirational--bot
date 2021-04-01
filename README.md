@@ -8,7 +8,7 @@
 
 - To find the bot on Telegram, simply download the [desktop](https://telegram.org/) application and on mobile got to the play store (for android) and search for telegram or apple store(for ISO) and download the application.
 
-- Create a Telegram account and simply search for the Bot with the username `@emmyn5600bot`.
+- Create a Telegram account and simply search for the Bot with the username `@emmy5600Bot`.
 
 - Run the command to `/start` and enjoy using the bot.
 
