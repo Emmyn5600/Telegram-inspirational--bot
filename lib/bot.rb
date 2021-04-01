@@ -4,7 +4,6 @@ require_relative 'jokes'
 require_relative 'inspiration'
 
 class Bot
-
   puts 'Inspirational Telegram bot developed by NSABIMANA Emmanuel'
   puts '----------------------------------------------'
   sleep 1
