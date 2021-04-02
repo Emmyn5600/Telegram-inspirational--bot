@@ -9,3 +9,4 @@ gem 'net-http-persistent', '~> 2.9', '>= 2.9.4'
 gem 'rspec', '~> 3.10'
 gem 'rubocop', require: false
 gem 'telegram-bot-ruby'
+gem 'bundler', '~> 2.2', '>= 2.2.15'
