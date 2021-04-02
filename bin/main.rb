@@ -4,7 +4,7 @@ require_relative '../lib/inspiration'
 puts 'Inspirational Telegram bot developed by NSABIMANA Emmanuel'
 puts '----------------------------------------------'
 sleep 1
-puts 'Hello! , Welcome to Inspirational telegram bot'
+puts 'Hello! , Welcome to Inspirational telegram--bot'
 sleep 1
 puts '----------------------------------------------'
 puts 'This is a bot to help you stay Inspired, motivated by giving you inspirational and motivation quotes'
