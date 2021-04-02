@@ -70,6 +70,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bundler (~> 2.2, >= 2.2.15)
   json
   net-http-persistent (~> 2.9, >= 2.9.4)
   rspec (~> 3.10)
