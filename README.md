@@ -2,7 +2,7 @@
 
 # `Telegram-inspirational--bot`
 
- > In this project, I built a Telegram Bot that gives you a daily inspirational quote and asks for your name and makes a joke about you. The main goal is to make a massive use of external API`s by putting into practice the main concepts of Object Oriented Programming, classes, modules, objects and accessing their attributes. The project is built using the TDD technique.
+ >In this project, I built a Telegram Bot that gives you a daily inspirational quote and asks for your name, and makes a joke about you. The main goal is to make massive use of external API by putting into practice the main concepts of Object-Oriented Programming, classes, modules, objects and accessing their attributes. The project is built using the TDD technique.
 
 ## `How to find the bot on Telegram`
 
